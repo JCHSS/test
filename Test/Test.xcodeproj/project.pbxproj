@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC71FF3F1C22BB0A00BF4BBC /* a.m in Sources */ = {isa = PBXBuildFile; fileRef = BC71FF3E1C22BB0A00BF4BBC /* a.m */; };
 		BCFF1E041C22AB670080D9EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF1E031C22AB670080D9EC /* main.m */; };
 		BCFF1E071C22AB670080D9EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF1E061C22AB670080D9EC /* AppDelegate.m */; };
 		BCFF1E0A1C22AB670080D9EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF1E091C22AB670080D9EC /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC71FF3D1C22BB0A00BF4BBC /* a.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = a.h; sourceTree = "<group>"; };
+		BC71FF3E1C22BB0A00BF4BBC /* a.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = a.m; sourceTree = "<group>"; };
 		BCFF1DFE1C22AB670080D9EC /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFF1E021C22AB670080D9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCFF1E031C22AB670080D9EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 		BCFF1DF51C22AB670080D9EC = {
 			isa = PBXGroup;
 			children = (
+				BC71FF3D1C22BB0A00BF4BBC /* a.h */,
+				BC71FF3E1C22BB0A00BF4BBC /* a.m */,
 				BCFF1E2A1C22ACAE0080D9EC /* JCH.h */,
 				BCFF1E2B1C22ACAE0080D9EC /* JCH.m */,
 				BCFF1E271C22ABA50080D9EC /* New.h */,
@@ -232,6 +237,7 @@
 				BCFF1E0A1C22AB670080D9EC /* ViewController.m in Sources */,
 				BCFF1E071C22AB670080D9EC /* AppDelegate.m in Sources */,
 				BCFF1E2C1C22ACAE0080D9EC /* JCH.m in Sources */,
+				BC71FF3F1C22BB0A00BF4BBC /* a.m in Sources */,
 				BCFF1E291C22ABA50080D9EC /* New.m in Sources */,
 				BCFF1E041C22AB670080D9EC /* main.m in Sources */,
 			);
@@ -424,6 +430,7 @@
 				BCFF1E231C22AB670080D9EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCFF1E241C22AB670080D9EC /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +439,7 @@
 				BCFF1E261C22AB670080D9EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
