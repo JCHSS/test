@@ -15,6 +15,7 @@
 		BCFF1E121C22AB670080D9EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCFF1E101C22AB670080D9EC /* LaunchScreen.xib */; };
 		BCFF1E1E1C22AB670080D9EC /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF1E1D1C22AB670080D9EC /* TestTests.m */; };
 		BCFF1E291C22ABA50080D9EC /* New.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF1E281C22ABA50080D9EC /* New.m */; };
+		BCFF1E2C1C22ACAE0080D9EC /* JCH.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF1E2B1C22ACAE0080D9EC /* JCH.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		BCFF1E1D1C22AB670080D9EC /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
 		BCFF1E271C22ABA50080D9EC /* New.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = New.h; sourceTree = "<group>"; };
 		BCFF1E281C22ABA50080D9EC /* New.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = New.m; sourceTree = "<group>"; };
+		BCFF1E2A1C22ACAE0080D9EC /* JCH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCH.h; sourceTree = "<group>"; };
+		BCFF1E2B1C22ACAE0080D9EC /* JCH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCH.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 		BCFF1DF51C22AB670080D9EC = {
 			isa = PBXGroup;
 			children = (
+				BCFF1E2A1C22ACAE0080D9EC /* JCH.h */,
+				BCFF1E2B1C22ACAE0080D9EC /* JCH.m */,
 				BCFF1E271C22ABA50080D9EC /* New.h */,
 				BCFF1E281C22ABA50080D9EC /* New.m */,
 				BCFF1E001C22AB670080D9EC /* Test */,
@@ -226,6 +231,7 @@
 			files = (
 				BCFF1E0A1C22AB670080D9EC /* ViewController.m in Sources */,
 				BCFF1E071C22AB670080D9EC /* AppDelegate.m in Sources */,
+				BCFF1E2C1C22ACAE0080D9EC /* JCH.m in Sources */,
 				BCFF1E291C22ABA50080D9EC /* New.m in Sources */,
 				BCFF1E041C22AB670080D9EC /* main.m in Sources */,
 			);
